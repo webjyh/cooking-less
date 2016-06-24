@@ -1,0 +1,27 @@
+{
+  "name": "cooking-less",
+  "version": "0.1.0",
+  "description": "A cooking plugin to import less.",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webjyh/cooking-less.git"
+  },
+  "keywords": [
+    "cooking",
+    "less",
+    "cooking-plugin"
+  ],
+  "author": "M.J",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webjyh/cooking-less/issues"
+  },
+  "homepage": "https://github.com/webjyh/cooking-less",
+  "dependencies": {
+    "less-loader": "^2.2.3"
+  }
+}
