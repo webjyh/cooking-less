@@ -23,6 +23,6 @@
   "homepage": "https://github.com/webjyh/cooking-less",
   "dependencies": {
 	"less": "^2.7.1",
-    "less-loader": "^2.2.3",
+    "less-loader": "^2.2.3"
   }
 }
