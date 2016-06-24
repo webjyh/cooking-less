@@ -1,6 +1,6 @@
 {
   "name": "cooking-less",
-  "version": "0.2.0",
+  "version": "0.0.2",
   "description": "A cooking plugin to import less.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/webjyh/cooking-less",
   "dependencies": {
-    "less": "^2.7.1"
-    "less-loader": "^2.2.3"
+	"less": "^2.7.1",
+    "less-loader": "^2.2.3",
   }
 }
