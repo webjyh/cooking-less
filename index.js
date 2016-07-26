@@ -7,10 +7,13 @@ module.exports = function (cooking) {
   if (process.env.NODE_ENV === 'production') {
     loader = load({
       sourceMap: SOURCE_MAP ? '#source-map' : false,
-      extract: !!cooking.config.extractCSS
+      extract: !!cooking.config.extractCSS,
+      postcss: !!cooking.config.postcss
     })
   } else {
-    loader = load()
+    loader = load({
+      postcss: !!cooking.config.postcss
+    })
   }
 
   cooking.add('loader.less', {
