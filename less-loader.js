@@ -5,10 +5,6 @@ try {
 } catch(_) {}
 
 module.exports = function (options) {
-  if (nextVersion) {
-    nextVersion = Number(nextVersion.split('.')[0])
-  }
-
   options = options || {}
   // generate loader string to be used with extract text plugin
   function generateLoaders (loaders) {
