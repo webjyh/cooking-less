@@ -1,6 +1,6 @@
 {
   "name": "cooking-less",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A cooking plugin to import less.",
   "main": "index.js",
   "scripts": {
